@@ -13,7 +13,7 @@ This idea was inpired from [this github repository](https://github.com/adiag321/
 # Data Description
 The dataset is collected from kaggle - https://www.kaggle.com/datasets/jackdaoud/marketing-data?taskId=2986
 
-1)ID: Customer’s unique identifier
+1. ID: Customer’s unique identifier
 2)Year_Birth: Customer’s birth year
 3)Education: Customer’s education level
 4)Marital_Status: Customer’s marital status
