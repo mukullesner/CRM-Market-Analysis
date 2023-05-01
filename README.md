@@ -53,4 +53,9 @@ The dataset is collected from kaggle - https://www.kaggle.com/datasets/jackdaoud
 **B) Exploratory data analysis(EDA)**
 - Detect outliers
 - Feature engineering
-- Anomoly detection using heatmap for correlation between features ![heatmap](/Images/heatmap.png)
+- Anomoly detection
+- Correlation between features
+
+**C) Statistical Analysis**
+- Calculation `r` and `p` values
+- Feature importance ![feature importance](important_feautres.png)
