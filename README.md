@@ -46,3 +46,11 @@ The dataset is collected from kaggle - https://www.kaggle.com/datasets/jackdaoud
 **1) Marketing analysis**
 **A) Data Cleaning:**
 - Remove white spaces 
+- Remove duplicates
+- Replace duplicate value with (Median value)
+- Data type conversion
+
+**B) Exploratory data analysis(EDA)**
+- Detect outliers
+- Feature engineering
+- Anomoly detection using heatmap for correlation between features ![heatmap](/Images/heatmap.png)
