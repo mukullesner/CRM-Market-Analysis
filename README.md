@@ -90,4 +90,5 @@ We got a Pearson correlation of 0.38 and a p-value of almost zero, which states 
 **D) Data Vizualization**
 
 `Successfull marketing campaign`
-![marketing-campaign](Images\Which marketing campaign is most successful.png)
+
+![campaign](Images/Which%20marketing%20campaign%20is%20most%20successful.png)
