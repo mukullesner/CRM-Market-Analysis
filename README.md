@@ -86,3 +86,8 @@ We got a Pearson correlation of 0.38 and a p-value of almost zero, which states 
 
 ![phd](Images/Married%20PhD%20vs%20the%20rest.png)
 
+
+**D) Data Vizualization**
+
+`Successfull marketing campaign`
+![marketing-campaign](Images/Which%20marketing%20campaign%20is%20most%20successful.png)
