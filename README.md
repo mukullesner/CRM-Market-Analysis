@@ -58,4 +58,24 @@ The dataset is collected from kaggle - https://www.kaggle.com/datasets/jackdaoud
 
 **C) Statistical Analysis**
 - Calculation `r` and `p` values
-- Feature importance ![feature importance](important_feautres.png)
+- Feature importance ![feature importance](important_feautres (1).png)
+
+We can now see that the top 7 factors are:
+
+1. Average order volume
+2. Total amount spent in the last two years
+3. Total number of purchases in the last two years
+4. Amount spent on wine in the last 2 years
+5. Number of purchases made using a catalog
+6. Number of visits to company's web site in the last month
+7. Total number of purchases through website in the last two years
+
+However, we can’t tell whether each factor is positively or negatively correlated to the number of store purchases. We can use SHAP to explain it.
+![shap-values](shap_1.png)
+
+Finding:
+
+1. The number of store purchases increases with the higher total amount spent(Total_Mnt), higher total purchase amount(Total_num_purchase), higher AOV, and higher amount of wines purchases(MntWines).
+2. The number of store purchases decreases with more website visits(NumWebVisitsMonth), a higher number of purchases through the catalog(NumCatalogPurchases), and a higher number of purchases through websites(NumWebPurchases).
+Summary: People who mostly shop at stores tend to buy more wines, have a higher average order volume, and shop less through the internet or catalog.
+![AOV](AOV vs NumStorePurchases.png)
