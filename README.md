@@ -71,11 +71,11 @@ We can now see that the top 7 factors are:
 7. Total number of purchases through website in the last two years
 
 However, we can’t tell whether each factor is positively or negatively correlated to the number of store purchases. We can use SHAP to explain it.
-![shap-values](shap_1.png)
+![shap-values](Images/shap_1.png)
 
 Finding:
 
 1. The number of store purchases increases with the higher total amount spent(Total_Mnt), higher total purchase amount(Total_num_purchase), higher AOV, and higher amount of wines purchases(MntWines).
 2. The number of store purchases decreases with more website visits(NumWebVisitsMonth), a higher number of purchases through the catalog(NumCatalogPurchases), and a higher number of purchases through websites(NumWebPurchases).
 Summary: People who mostly shop at stores tend to buy more wines, have a higher average order volume, and shop less through the internet or catalog.
-![AOV](AOV vs NumStorePurchases.png)
+![AOV](Images/AOV vs NumStorePurchases.png)
