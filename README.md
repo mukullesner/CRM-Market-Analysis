@@ -82,7 +82,7 @@ Summary: People who mostly shop at stores tend to buy more wines, have a higher 
 
 We got a Pearson correlation of 0.38 and a p-value of almost zero, which states that they are statistically significant and have a positive correlation. (If the p-value is > 0.05, we will fail to reject the null hypothesis, where they do not correlate.)
 
-- `Amount of Omega 3 V/s Consumption by Couples who are Married and education status is PhD`
+- **Amount of Omega 3 V/s Consumption by Couples who are Married and education status is PhD**
 
 ![phd](Images/Married%20PhD%20vs%20the%20rest.png)
 
