@@ -71,6 +71,7 @@ We can now see that the top 7 factors are:
 7. Total number of purchases through website in the last two years
 
 However, we can’t tell whether each factor is positively or negatively correlated to the number of store purchases. We can use SHAP to explain it.
+
 <img width="667" alt="SHAP_1" src="https://github.com/mukullesner/CRM-Market-Analysis/assets/66059914/965fe763-10ce-438d-becb-aff342fe65c9">
 
 Finding:
