@@ -84,7 +84,8 @@ We got a Pearson correlation of 0.38 and a p-value of almost zero, which states 
 
 - **Amount of Omega 3 V/s Consumption by Couples who are Married and education status is PhD**
 
-![phd](Images\Married PhD vs the rest.png)
+![Married PhD vs the rest](https://github.com/mukullesner/CRM-Market-Analysis/assets/66059914/c3692c4a-f253-47e6-8bb7-37e1f72e8621)
+
 
 
 **D) Data Vizualization**
