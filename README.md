@@ -58,7 +58,7 @@ The dataset is collected from kaggle - https://www.kaggle.com/datasets/jackdaoud
 
 **C) Statistical Analysis**
 - Calculation `r` and `p` values
-- Feature importance ![feature importance](important_feautres (1).png)
+- Feature importance ![important_feautres (1)](https://github.com/mukullesner/CRM-Market-Analysis/assets/66059914/2414c9bf-683b-4ec7-be98-bcd2bb1694ec)
 
 We can now see that the top 7 factors are:
 
