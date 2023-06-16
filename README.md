@@ -95,4 +95,4 @@ We got a Pearson correlation of 0.38 and a p-value of almost zero, which states 
 
 `Successfull marketing campaign`
 
-![campaign](Images/Which%20marketing%20campaign%20is%20most%20successful.png)
+![Which marketing campaign is most successful](https://github.com/mukullesner/CRM-Market-Analysis/assets/66059914/5411ccaf-c03c-472c-af35-f10c008f6cb3)
