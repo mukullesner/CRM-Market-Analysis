@@ -58,7 +58,9 @@ The dataset is collected from kaggle - https://www.kaggle.com/datasets/jackdaoud
 
 **C) Statistical Analysis**
 - Calculation `r` and `p` values
-- Feature importance ![feature importance](important_feautres (1).png)
+- Feature importance 
+
+![important_feautres (1)](https://github.com/mukullesner/CRM-Market-Analysis/assets/66059914/2414c9bf-683b-4ec7-be98-bcd2bb1694ec)
 
 We can now see that the top 7 factors are:
 
@@ -71,24 +73,26 @@ We can now see that the top 7 factors are:
 7. Total number of purchases through website in the last two years
 
 However, we can’t tell whether each factor is positively or negatively correlated to the number of store purchases. We can use SHAP to explain it.
-![shap-values](Images/SHAP_1.png)
+
+<img width="667" alt="SHAP_1" src="https://github.com/mukullesner/CRM-Market-Analysis/assets/66059914/965fe763-10ce-438d-becb-aff342fe65c9">
 
 Finding:
 
 1. The number of store purchases increases with the higher total amount spent(Total_Mnt), higher total purchase amount(Total_num_purchase), higher AOV, and higher amount of wines purchases(MntWines).
 2. The number of store purchases decreases with more website visits(NumWebVisitsMonth), a higher number of purchases through the catalog(NumCatalogPurchases), and a higher number of purchases through websites(NumWebPurchases).
 Summary: People who mostly shop at stores tend to buy more wines, have a higher average order volume, and shop less through the internet or catalog.
-![AOV](Images/AOV%20vs%20NumStorePurchases.png)
+![AOV](https://github.com/mukullesner/CRM-Market-Analysis/assets/66059914/de2440b1-2952-4c79-88c3-e7cb7b63c771)
 
 We got a Pearson correlation of 0.38 and a p-value of almost zero, which states that they are statistically significant and have a positive correlation. (If the p-value is > 0.05, we will fail to reject the null hypothesis, where they do not correlate.)
 
 - **Amount of Omega 3 V/s Consumption by Couples who are Married and education status is PhD**
 
-![phd](Images\Married PhD vs the rest.png)
+![Married PhD vs the rest](https://github.com/mukullesner/CRM-Market-Analysis/assets/66059914/c3692c4a-f253-47e6-8bb7-37e1f72e8621)
+
 
 
 **D) Data Vizualization**
 
 `Successfull marketing campaign`
 
-![campaign](Images/Which%20marketing%20campaign%20is%20most%20successful.png)
+![Which marketing campaign is most successful](https://github.com/mukullesner/CRM-Market-Analysis/assets/66059914/5411ccaf-c03c-472c-af35-f10c008f6cb3)
